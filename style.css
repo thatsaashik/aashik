@@ -1,0 +1,224 @@
+*{
+margin: 0;
+padding: 0;
+}
+#navigation{
+        height: 100px;
+        width: 600px;
+        
+        
+}
+#img{
+   height: 80px;
+   width: 80px;
+   background-size: cover;
+   border-radius: 50px;
+   padding:auto;
+}
+#navigation-item {
+     display: flex;
+     list-style-type: none;
+     align-items: center;
+     justify-content: space-around;
+     font-size: 0.85rem;
+     
+     /* background-color: rgb(255, 255, 255); */
+     
+     text-decoration: none;
+ 
+}
+a:hover{
+     background-color: rgb(254, 255, 255); 
+     color: black;       
+}
+a{
+ text-decoration: none;
+ cursor: pointer;
+ border-radius: 5px;
+ color: whitesmoke;
+}
+#home1{
+  display: flex;
+  flex-direction: column;
+  padding: 2px 200px ;
+  justify-content: center;
+  align-items: center;
+  height: 290px;
+  
+}
+#home1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.90;
+    background:url("bg1.jpg") no-repeat  center center/cover;
+    
+   
+}
+#home1 h1
+{
+color: white;
+padding: 12px;
+text-align: center;
+font-size: 2.3rem;
+}
+#home1 p
+{
+color: white;
+text-align: center;
+font-size: 1.3rem;
+}
+#btn{
+   background-color: rgb(229, 188, 174);
+   color: white;
+   border: 2px solid black;
+   border-radius: 9px;
+   padding: 10px;
+   margin: 10px;
+   cursor: pointer;
+}#btn:hover{
+ background-color: brown;
+ color: whitesmoke;
+}
+/* services-container */
+.center
+{text-align: center;
+}
+.heading1
+{
+    padding: 10px;
+    font-size: 2.3rem;
+}
+.heading1:hover{
+    color: rgb(210, 69, 69);
+
+}
+.heading2
+{
+    padding: 10px;
+    font-size: 1.3rem;
+}
+#service{
+    margin: 34px;
+    display: flex;
+
+}
+#service-container{
+height: 460px;
+padding-top: 120px;
+}
+#box
+{
+height: 300px;
+width: 350px;
+border: 2px solid red;
+background-color: rgb(249, 243, 243);
+margin: 12px;
+padding: 12px;
+border-radius: 23px;
+color: rgb(9, 8, 8);
+}
+#box:hover
+{
+background-color: rgb(189, 241, 153);
+color:white;
+border: 2px solid black;
+ transition:  .12s ease-in-out;
+}
+#img2{
+     height: 130px;
+     width: 200px;
+     display: block;
+  margin:  auto;
+  
+}
+#img2:hover
+{
+ 
+   cursor: pointer;
+}
+
+
+
+#clinet-section{
+    height: 100px;
+
+
+}
+#clinet
+{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+#clinet img{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+}#clinet-section::before{
+    content: "";
+    height: 850px;
+    width: 100%;
+    background: url("bg5.jpg")no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.70;
+    position: absolute;
+}
+
+
+#contect{
+  height: 375px;
+  padding: 100px;
+  position: relative;
+  
+}
+#contect-box
+{
+display: flex;
+justify-content: center;
+align-items: center;
+padding-bottom: 34px;
+margin: 70px;
+
+}
+
+#contect input{
+   width: 100%;
+   padding: 10px;
+   margin: 2px;
+font-size: 0.5rem;
+border-radius: 5px;
+
+}
+#contect label{
+    font-size: 1rem;
+    font-style: bold;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+#contect-box textarea{
+    width: 100%;
+    padding: 0.3rem;
+    border-radius: 10px;
+}
+.btn2{
+    height: 35px;
+    width: 70px;
+    margin: 10px; 
+    color: rgb(255, 255, 255);
+    background-color: rgb(182, 241, 165);
+    border: 2px solid black;
+    border-radius: 10px ;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: rgb(130, 238, 100);
+    border: 1px solid black;
+
+}
